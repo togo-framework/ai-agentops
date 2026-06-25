@@ -1,6 +1,6 @@
 # ai-agentops — documentation
 
-  <img src=".github/assets/togo-mark.svg" alt="togo" height="64" />
+Agent operations & observability for togo — token/cost/latency tracking, feeds billing
 
 ## Overview
 
@@ -19,7 +19,7 @@ A capability plugin — it self-registers on boot; no driver selector needed.
 
 ## Configuration
 
-Environment variables read by this plugin (extracted from the source):
+Environment variables read by this plugin (extracted from the source — see the gateway/provider docs for each value):
 
 _No environment variables read directly (uses the kernel/base config or the app DB)._
 
@@ -31,4 +31,4 @@ See the package API in the source.
 
 - Marketplace: https://to-go.dev/marketplace
 - Source: https://github.com/togo-framework/ai-agentops
-- README: ../README.md
+- Full README: ../README.md
